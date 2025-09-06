@@ -7,3 +7,9 @@ read -p "Also tell me the folder name: " folder_name
 for ((i=1; i<=$folders_number; i++)) do
 	mkdir $folder_name$i
 done
+
+
+# Range.
+for var in 1 2 3 4 5; do
+	echo Hello-$var
+done
